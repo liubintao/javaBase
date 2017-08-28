@@ -33,5 +33,11 @@ public class IntegerTest {
         Integer m = Integer.valueOf("127");
         Integer n = Integer.valueOf("127");
         System.out.println(m == n);
+
+        int iVal = 1000_000;
+        System.out.println(iVal);
+
+        int iVal2 = 0b10;
+        System.out.println(iVal2);
     }
 }
