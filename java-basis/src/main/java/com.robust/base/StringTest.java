@@ -17,6 +17,8 @@ public class StringTest {
 
         System.out.println(String.format("%020d", 1));
 
+        System.out.println(String.format("%06d", 1234567));
+
         System.out.println("20170922".compareTo("20170923"));
     }
 }
