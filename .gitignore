@@ -23,6 +23,6 @@ hs_err_pid*
 /java-basis/target/
 !/java-basis/target/
 /java-basis/java-basis.iml
-/java-concurrent/target/
-/java-concurrent/java-concurrent.iml
+/java-concurrency/target/
+/java-concurrency/java-concurrency.iml
 /java-design/java-design.iml

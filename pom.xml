@@ -18,14 +18,17 @@
         <encoding>UTF-8</encoding>
         <lombok.version>1.16.12</lombok.version>
         <guava.version>21.0</guava.version>
-        <apache.commons.lang.version>3.7</apache.commons.lang.version>
+        <apache-commons-lang.version>3.7</apache-commons-lang.version>
+        <apache-commons-text.version>1.6</apache-commons-text.version>
+        <slf4j.version>1.7.26</slf4j.version>
     </properties>
 
     <modules>
-        <module>java-concurrent</module>
+        <module>java-concurrency</module>
         <module>java-design</module>
         <module>java-basis</module>
         <module>java-algorithm</module>
+        <module>java-tool</module>
     </modules>
 
     <dependencyManagement>
@@ -43,8 +46,29 @@
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
-                <version>${apache.commons.lang.version}</version>
+                <version>${apache-commons-lang.version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-text</artifactId>
+                <version>${apache-commons-text.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>${slf4j.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -61,7 +85,7 @@
                         <encoding>UTF-8</encoding>
                         <compilerArguments>
                             <verbose />
-                            <bootclasspath>${env.JAVA_HOME}/lib/rt.jar</bootclasspath>
+                            <!--<bootclasspath>${env.JAVA_HOME}/lib/rt.jar</bootclasspath>-->
                         </compilerArguments>
                     </configuration>
                 </plugin>
