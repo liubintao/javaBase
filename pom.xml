@@ -21,6 +21,9 @@
         <apache-commons-lang.version>3.7</apache-commons-lang.version>
         <apache-commons-text.version>1.6</apache-commons-text.version>
         <slf4j.version>1.7.26</slf4j.version>
+
+        <tool-dependencies-bom.version>1.0-SNAPSHOT</tool-dependencies-bom.version>
+        <tool-bom.version>1.0-SNAPSHOT</tool-bom.version>
     </properties>
 
     <modules>
@@ -33,6 +36,20 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.robust.tools</groupId>
+                <artifactId>tool-dependencies-bom</artifactId>
+                <version>${tool-dependencies-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--<dependency>
+                <groupId>com.robust.tools</groupId>
+                <artifactId>tool-bom</artifactId>
+                <version>${tool-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
