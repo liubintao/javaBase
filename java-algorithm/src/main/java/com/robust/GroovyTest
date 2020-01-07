@@ -1,5 +1,0 @@
-public class GroovyTest{
-    public static void main(String[] args) {
-        println "aaa";
-    }
-}
