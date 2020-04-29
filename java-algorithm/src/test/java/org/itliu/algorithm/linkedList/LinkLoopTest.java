@@ -1,14 +1,14 @@
-package com.itliu.algorithm.linkedList;
+package org.itliu.algorithm.linkedList;
 
 
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * @Description:
- * @Author: robust
- * @CreateDate: 2019/10/14 18:08
- * @Version: 1.0
+ * @desc:
+ * @author: itliu
+ * @date: 2019/10/14 18:08
+ * @version: 1.0
  */
 public class LinkLoopTest {
 

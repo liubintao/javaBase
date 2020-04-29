@@ -1,12 +1,12 @@
-package com.itliu.algorithm.sort;
+package org.itliu.algorithm.sort;
 
 import java.util.Arrays;
 
 /**
- * @Description:
- * @Author: robust
- * @CreateDate: 2019/7/24 7:40
- * @Version: 1.0
+ * @desc:
+ * @author: itliu
+ * @date: 2019/7/24 7:40
+ * @version: 1.0
  */
 public class InsertionSortAdd {
 

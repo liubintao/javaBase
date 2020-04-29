@@ -1,12 +1,12 @@
-package com.itliu.algorithm.linkedList;
+package org.itliu.algorithm.linkedList;
 
 
 /**
- * @Description: Function:是否是环链表，采用快慢指针，一个走的快些一个走的慢些 如果最终相遇了就说明是环就相当于在一个环形跑道里跑步，
+ * @desc: Function:是否是环链表，采用快慢指针，一个走的快些一个走的慢些 如果最终相遇了就说明是环就相当于在一个环形跑道里跑步，
  * 速度不一样的最终一定会相遇。
- * @Author: robust
- * @CreateDate: 2019/10/14 17:49
- * @Version: 1.0
+ * @author: itliu
+ * @date: 2019/10/14 17:49
+ * @version: 1.0
  */
 public class LinkLoop {
 

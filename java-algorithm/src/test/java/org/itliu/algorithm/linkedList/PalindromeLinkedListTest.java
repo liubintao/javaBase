@@ -1,14 +1,12 @@
-package com.itliu.algorithm.linkedList;
+package org.itliu.algorithm.linkedList;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
- * @Description:
- * @Author: robust
- * @CreateDate: 2019/12/24 11:57
- * @Version: 1.0
+ * @desc:
+ * @author: itliu
+ * @date: 2019/12/24 11:57
+ * @version: 1.0
  */
 public class PalindromeLinkedListTest {
 

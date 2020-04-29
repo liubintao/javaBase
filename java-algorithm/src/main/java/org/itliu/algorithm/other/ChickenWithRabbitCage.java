@@ -1,10 +1,10 @@
-package com.itliu.algorithm.other;
+package org.itliu.algorithm.other;
 
 /**
- * @Description: 鸡兔同笼问题
- * @Author: robust
- * @CreateDate: 2019/12/25 16:48
- * @Version: 1.0
+ * @desc: 鸡兔同笼问题
+ * @author: itliu
+ * @date: 2019/12/25 16:48
+ * @version: 1.0
  */
 public class ChickenWithRabbitCage {
     public static void main(String[] args) {

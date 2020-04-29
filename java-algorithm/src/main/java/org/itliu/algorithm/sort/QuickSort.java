@@ -1,4 +1,4 @@
-package com.itliu.algorithm.sort;
+package org.itliu.algorithm.sort;
 
 import java.util.Arrays;
 

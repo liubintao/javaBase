@@ -1,10 +1,10 @@
-package com.itliu.algorithm.linkedList;
+package org.itliu.algorithm.linkedList;
 
 /**
- * @Description: 链表演示对象
- * @Author: robust
- * @CreateDate: 2019/12/24 11:20
- * @Version: 1.0
+ * @desc: 链表演示对象
+ * @author: itliu
+ * @date: 2019/12/24 11:20
+ * @version: 1.0
  */
 public class ListNode<T> {
     public T data;

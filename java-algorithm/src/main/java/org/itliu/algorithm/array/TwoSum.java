@@ -1,4 +1,4 @@
-package com.itliu.algorithm.array;
+package org.itliu.algorithm.array;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,12 +1,12 @@
-package com.itliu.algorithm.queue;
+package org.itliu.algorithm.queue;
 
 import java.util.PriorityQueue;
 
 /**
- * @Description:
- * @Author: robust
- * @CreateDate: 2019/3/14 8:56
- * @Version: 1.0
+ * @desc:
+ * @author: itliu
+ * @date: 2019/3/14 8:56
+ * @version: 1.0
  */
 public class PriorityQueueTest {
 

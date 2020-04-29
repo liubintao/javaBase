@@ -1,4 +1,4 @@
-package com.itliu.algorithm.stack;
+package org.itliu.algorithm.stack;
 
 import java.util.HashMap;
 import java.util.Map;

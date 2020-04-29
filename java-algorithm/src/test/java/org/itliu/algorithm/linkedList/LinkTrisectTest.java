@@ -1,13 +1,13 @@
-package com.itliu.algorithm.linkedList;
+package org.itliu.algorithm.linkedList;
 
 import com.robust.tools.kit.base.type.Triple;
 import org.junit.Test;
 
 /**
- * @Description:
- * @Author: robust
- * @CreateDate: 2019/10/14 19:05
- * @Version: 1.0
+ * @desc:
+ * @author: itliu
+ * @date: 2019/10/14 19:05
+ * @version: 1.0
  */
 public class LinkTrisectTest {
 

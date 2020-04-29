@@ -1,13 +1,13 @@
-package com.itliu.algorithm.linkedList;
+package org.itliu.algorithm.linkedList;
 
 
 import com.robust.tools.kit.base.type.Triple;
 
 /**
- * @Description: 将一个链表三等分
- * @Author: robust
- * @CreateDate: 2019/10/14 18:17
- * @Version: 1.0
+ * @desc: 将一个链表三等分
+ * @author: itliu
+ * @date: 2019/10/14 18:17
+ * @version: 1.0
  */
 public class LinkTrisect {
 
